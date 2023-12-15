@@ -140,6 +140,7 @@ Mermaid схема:
 graph LR;
   untracked -- "git add" --> staged;
   staged -- "git commit" --> tracked/comitted;
-  tracked/comitted -- "changes" --> modified/changed 
-  modified/changed -- "git add" --> staged
+  tracked/comitted -- "changes" --> modified/changed;
+  staged -- "chandes" --> modified/changed;
+  modified/changed -- "git add" --> staged;
 ``` 
